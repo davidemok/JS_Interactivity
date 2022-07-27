@@ -1,0 +1,12 @@
+script file at bottom bc website might change based on what you put into it so it checks the script last
+
+dom stuff:
+document.firstElementChild - should prob pull up html
+document.firstElementChild.lastElementChild - pulls up last child of the first element
+document.querySelector("h1")
+title.style.color = "blue"
+title.innerHTML = "morbius bad"
+
+let lists = document.querySelectorAll("li")
+lists[2].style.color = "rebeccapurple"
+document.querySelector("input").click()
